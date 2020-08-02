@@ -1,7 +1,11 @@
+/* universal styles */
+
 * {
     margin: 0;
     padding: 0;
     color: #DDE0E2;
+    box-sizing: border-box;
+    letter-spacing: 0.12rem;
 }
 
 body {
@@ -13,10 +17,44 @@ body {
     background-attachment: fixed;
 }
 
+/* header styles */
+
 .bg-dark {
-    opacity: 0.9;
+    background-color: rgba(52, 58, 64, 0.6)!important;
 }
 
 .navbar-dark .navbar-brand {
     color: #DDE0E2;
 }
+
+/* content styles */
+
+@media (max-width: 767.98px) {
+    .main-content {
+        width: 90%;
+    }    
+}
+
+@media (max-width: 575.98px) {
+    .main-content {
+        width: 95%;
+    }    
+}
+
+hr {
+    width: 100%;
+    background-color: #DDE0E2;
+}
+
+p {
+    font-weight: lighter;
+}
+
+img.profile {
+    width: 70%;
+    height: 70%;
+    max-height: 303px;
+    max-width: 222px;
+}
+
+
