@@ -17,7 +17,7 @@ body {
     background-attachment: fixed;
 }
 
-/* header styles */
+/* universal header styles */
 
 .bg-dark {
     background-color: rgba(52, 58, 64, 0.6)!important;
@@ -27,11 +27,16 @@ body {
     color: #DDE0E2;
 }
 
-/* content styles */
+/* universal content styles */
 
 @media (max-width: 767.98px) {
     h1 {
         font-size: 2rem;
+    }
+
+    
+    h3 {
+        font-size: 1.5rem;
     }
 
     .main-content {
@@ -45,6 +50,10 @@ body {
     
     h1 {
         font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
     }
 
     .main-content {
@@ -69,9 +78,11 @@ img.profile {
     max-width: 201px;
 }
 
-/* footer */
+/* universal footer */
 
 .copyright, .far {
     color: #4F575E;
     font-weight: lighter;
 }
+
+/* portfolio styles */
