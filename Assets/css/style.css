@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #071A0B;
+    background-color: #121B25;
     background-image: url(../images/hero-img.jpg);
     background-position: center center;
     background-size: cover;
@@ -30,14 +30,26 @@ body {
 /* content styles */
 
 @media (max-width: 767.98px) {
+    h1 {
+        font-size: 2rem;
+    }
+
     .main-content {
         width: 90%;
+        font-size: 0.8rem;
+        
     }    
 }
 
 @media (max-width: 575.98px) {
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
     .main-content {
         width: 95%;
+        font-size: 0.7rem;
     }    
 }
 
@@ -51,10 +63,17 @@ p {
 }
 
 img.profile {
-    width: 70%;
-    height: 70%;
-    max-height: 303px;
-    max-width: 222px;
+    width: 30%;
+    height: 30%;
+    max-height: 275px;
+    max-width: 201px;
+}
+
+/* footer */
+
+.copyright, .far {
+    color: #4F575E;
+    font-weight: lighter;
 }
 
 
