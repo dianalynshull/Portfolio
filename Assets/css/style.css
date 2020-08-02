@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #DDE0E2;
+}
+
+body {
+    background-color: #071A0B;
+    background-image: url(../images/hero-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-dark {
+    opacity: 0.9;
+}
+
+.navbar-dark .navbar-brand {
+    color: #DDE0E2;
+}
