@@ -23,6 +23,10 @@ body {
     background-color: rgba(52, 58, 64, 0.6)!important;
 }
 
+.footer {
+    background-color: rgb(52, 58, 64)!important;
+}
+
 .navbar-dark .navbar-brand {
     color: #DDE0E2;
 }
