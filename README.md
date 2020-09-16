@@ -10,6 +10,8 @@ https://dianalynshull.github.io/Portfolio/
 
 The initial build of this site (as of 8/1/2020) was to build the foundations of my future portfolio page. It was also meant to assist in practicing the use of bootstrap instead of manually building out all css properties.
 
+The second build of this site (as of 9/15/2020) was to update the page with more projects that I have built and worked on.
+
 ## Requirements for Project
 
 * Functional, deployed application
@@ -29,6 +31,14 @@ The initial build of this site (as of 8/1/2020) was to build the foundations of 
 * Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
 * Must properly utilize Bootstrap components and grid system.
+
+* Submit an updated portfolio featuring project 1 and two exemplary homework assignments.
+
+* Submit an updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
+
+* Submit an updated resume
+
+* Submit an updated LinkedIn profile
 
 ## Acknowledgments
 
