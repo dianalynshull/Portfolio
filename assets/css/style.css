@@ -32,6 +32,9 @@ p {
 section {
     margin-bottom: 80px!important;
 }
+.contact-links {
+    width: 20%
+}
 /* universal header styles */
 .bg-dark {
     background-color: rgba(52, 58, 64, 0.6)!important;
@@ -50,11 +53,18 @@ section {
 /* universal contact styles */
 .form-control {
     background-color: #D2DAE2;
+    width: 100%;
 }
 .submit {
    background-color: #04090D;
    border: #11161C;
    color: #DDE0E2;
+}
+#inputMessage {
+    height: 80px;
+}
+::placeholder {
+    font-size: 0.8em;
 }
 /* small and x-small media queries */
 @media (max-width: 575px) {
@@ -66,6 +76,9 @@ section {
     }
     .about-me {
         text-align: center;
+    }
+    .contact {
+        margin: 0;   
     }
     h1 {
         font-size: 1.75em!important;
@@ -92,6 +105,9 @@ section {
     }
     .about-me {
         text-align: center;
+    }
+    .contact {
+        margin: 0;   
     }
     h1 {
         font-size: 1.75em!important;
@@ -143,12 +159,4 @@ section {
     p, .nav-link {
         font-size: 1.25em;
     }
-}
-
-/* contact styles */
-#inputMessage {
-    height: 80px;
-}
-::placeholder {
-    font-size: 0.8em;
 }
